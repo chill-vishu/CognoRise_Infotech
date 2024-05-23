@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 4, 77);
+}
+
+.mainContainer {
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2em;
+    gap: 2em;
+    background-color: rgb(228, 228, 252);
+    border: 1px solid rgb(217, 217, 217);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.4);
+    padding: 1em;
+}
+
+.vishwjeet p{
+    text-align: center;
+    align-items: center;
+    color: grey;
+}
+
+h1{
+    font-size: 3em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 1.2em;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+p input{
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 2px solid black;
+}
+
+p input:focus {
+    background-color: rgb(179, 191, 216);
+}
+button {
+    padding: 0.5em;
+    background-color: rgb(97, 97, 220);
+    border-radius: 0.5em;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: white;
+    border: 2px solid rgb(97, 97, 220);
+    color: rgb(97, 97, 220);
+    transform: scale(1.02);
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    padding: 0;
+    font-size: 1.8em;
+    font-weight: 700;
+}
