@@ -1,6 +1,4 @@
-# CognoRise_Infotech
 ![CognoRise Logo](https://github.com/chill-vishu/CognoRise_Infotech/assets/136313274/6f2d36e5-c0d6-49b7-be27-c62c5e6dd471)
-
 <h2>Welcome To My CognoRise Infotech's Repository!</h2>
 <h3>Created To Showcase The Projects/Tasks.</h3>
 <hr>
