@@ -6,4 +6,4 @@
 <p><b>Links For The Live Projects :-</b></p>
 <br>
 <h3>BMI Calculator</h3>
-<p><a href="https://bmi-calc-cognorise.netlify.app/"></a></p>
+<a href="https://bmi-calc-cognorise.netlify.app/">Click Here For BMI Calculator</a>
