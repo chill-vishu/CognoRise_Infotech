@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c73b3b;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainContent {
+    background-color: white;
+    min-height: 400px;
+    width: 540px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type = "text"] {
+    font-size: medium;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #c73b3b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid #c73b3b;
+    border-radius: 5px;
+    color: #c73b3b;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p.vishwjeet{
+    text-align: center;
+    color: black;
+}
+p{
+    text-align: center;
+    color: grey;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: white;
+    color: #dc3545;
+    border: 0.5px solid #dc3545;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
