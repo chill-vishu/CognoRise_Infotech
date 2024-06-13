@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator | CognoRise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="header">
+          <h1>Calculator</h1>
+          <br />
+        </div>
+        <div class="first">
+          <input
+            type="text"
+            name="result"
+            id="result"
+            placeholder="Result"
+            readonly
+          />
+          <input
+            type="button"
+            value="C"
+            onclick="result.value=''"
+            id="clear-btn"
+          />
+        </div>
+        <div class="second">
+          <input type="button" value="1" onclick="liveScreen(1)" />
+          <input type="button" value="2" onclick="liveScreen(2)" />
+          <input type="button" value="3" onclick="liveScreen(3)" />
+          <input type="button" value="+" onclick="liveScreen('+')" />
+        </div>
+        <div class="third">
+          <input type="button" value="4" onclick=" liveScreen(4)" />
+          <input type="button" value="5" onclick=" liveScreen(5)" />
+          <input type="button" value="6" onclick=" liveScreen(6)" />
+          <input type="button" value="-" onclick="liveScreen('-')" />
+        </div>
+        <div class="fourth">
+          <input type="button" value="7" onclick="liveScreen(7)" />
+          <input type="button" value="8" onclick="liveScreen(8)" />
+          <input type="button" value="9" onclick=" liveScreen(9)" />
+          <input type="button" value="x" onclick="liveScreen('*')" />
+        </div>
+        <div class="fifth">
+          <input type="button" value="/" onclick="liveScreen('/')" />
+          <input type="button" value="0" onclick="liveScreen(0)" />
+          <input type="button" value="." onclick="liveScreen('.')" />
+          <input type="button" value="=" onclick="calculate(result.value)" />
+        </div>
+        <br />
+        <p>
+          Created By Vishwjeet Singh, During CognoRise Infotech's Internship
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
