@@ -8,3 +8,5 @@
 <br>
 <h3>To-Do List</h3>
 <a href="https://to-do-cognorise.netlify.app/">Click Here For To-Do List</a>
+<h3>Calculator</h3>
+<a href="https://calculator-cognorise.netlify.app/">Click Here For Calculator</a>
